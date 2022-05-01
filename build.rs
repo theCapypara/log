@@ -21,7 +21,7 @@ fn main() {
     println!("cargo:rerun-if-changed=build.rs");
 }
 
-fn target_has_atomic_cas(target: &str) -> bool {
+fn target_has_atomic_cas(_target: &str) -> bool {
     false
 }
 
